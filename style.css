@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #222;
+    line-height: 1.6;
+}
+
+.hero {
+    min-height: 70vh;
+    background: #4f46e5;
+    color: white;
+    padding: 30px 8%;
+}
+
+nav h2 {
+    font-size: 24px;
+}
+
+.hero-content {
+    max-width: 700px;
+    margin: 120px auto;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 52px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 28px;
+    background: white;
+    color: #4f46e5;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.features {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+.features > h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.feature-container {
+    display: flex;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.feature {
+    flex: 1;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.feature h3 {
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+
+.feature p {
+    color: #666;
+}
+
+@media (max-width: 700px) {
+    .hero-content h1 {
+        font-size: 38px;
+    }
+
+    .feature-container {
+        flex-direction: column;
+    }
+}
